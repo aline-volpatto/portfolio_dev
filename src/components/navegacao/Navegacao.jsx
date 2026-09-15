@@ -3,12 +3,12 @@ import styles from './Navegacao.module.css'
 function Navegacao(){
 
     return(
-        <nav className={styles.navegacao}>
+        <nav className={styles.nav}>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a className={styles.link} href="#sobre">Sobre</a></li>
+                <li><a className={styles.link} href="#habilidades">Habilidades</a></li>
+                <li><a className={styles.link} href="#projetos">Projetos</a></li>
+                <li><a className={styles.link} href="#contato">Contato</a></li>
             </ul>
         </nav>
     )

@@ -1,6 +1,6 @@
 import './styles/variables.css'
-import Titulo from './components/titulo/Titulo'
-import Navegacao from './components/navegacao/Navegacao'
+import Header from './components/header/Header'
+
 
 
 function App() {
@@ -9,8 +9,7 @@ function App() {
 
   return (
     <>
-      <Titulo />
-      <Navegacao />
+      <Header />
     </>
   )
 }
