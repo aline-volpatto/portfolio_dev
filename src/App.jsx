@@ -1,6 +1,10 @@
 import './styles/variables.css'
-import Titulo from './components/titulo/Titulo'
-import Navegacao from './components/navegacao/Navegacao'
+import Header from './components/header/Header'
+import SobreMim from './components/sobreMim/SobreMim'
+import Projetos from './components/projetos/Projetos'
+import Contato from './components/contato/Contato'
+import Rodape from './components/rodape/Rodape'
+
 
 
 function App() {
@@ -9,8 +13,11 @@ function App() {
 
   return (
     <>
-      <Titulo />
-      <Navegacao />
+      <Header />
+      <SobreMim />
+      <Projetos />
+      <Contato />
+      <Rodape />
     </>
   )
 }

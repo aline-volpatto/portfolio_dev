@@ -1,0 +1,37 @@
+.nav {
+    background-color: var(--nav-bg);
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.nav :global(.nav-link) {
+    color: var(--bg);
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: opacity 0.2s;
+}
+
+.nav :global(.nav-link):hover {
+    opacity: 0.75;
+}
+
+.nav :global(.nav-link.active) {
+    color: var(--bg);
+}
+
+.logo {
+    color: var(--bg);
+    font-weight: 700;
+}
+
+.link {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.link:hover {
+    opacity: 0.7;
+}
