@@ -9,7 +9,7 @@ function HeaderBackground() {
     >
       <path
         d="M0,100 C480,70 960,70 1440,100 L1440,200 L0,200 Z"
-        fill="#ffffff"
+        style={{ fill: "var(--bg)" }}
       />
     </svg>
   );
