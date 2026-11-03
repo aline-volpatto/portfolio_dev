@@ -31,15 +31,15 @@ const projetos = [
         imagem: acroLogImagem,
         videoUrl: acroLogVideo,
         descricao:
-            'Sistema focado em gestão de acervos e logística, com interface clara para cadastro, busca e acompanhamento de itens.',
+            'Sistema de gestão de uma escola de acrobacia aérea. Inclui cadastro de alunos, gerenciamento de horas de voos, avaliação de voos, briefing e debriefing. Por ser uma aplicação totalmente front-end, os dados persistem com uso de localStorage e são extraídos manualmente para uma pasta local. Sistema em aperfeiçoamento.',
     },
     {
         id: 'checkout-express',
-        titulo: 'Checkout Express',
+        titulo: 'Closet Express',
         imagem: closetExpressImagem,
         videoUrl: closetExpressVideo,
         descricao:
-            'Fluxo de checkout simplificado para e-commerce, com etapas objetivas, validação de dados e finalização rápida do pedido.',
+            'Simulação de um checkout de uma loja virtual, com etapas objetivas, validação de dados e finalização ráida do pedido',
     },
     {
         id: 'lista-de-tarefas',
