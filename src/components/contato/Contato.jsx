@@ -13,7 +13,7 @@ function Contato() {
           <li className={styles.item}>
             <a
               className={styles.link}
-               href="https://github.com/aline-volpatto"
+              href="https://github.com/aline-volpatto"
               target="_blank"
               rel="noreferrer noopener"
               aria-label="GitHub"
