@@ -18,3 +18,18 @@ body {
   background-color: var(--bg);
   color: var(--text);
 }
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.container-conteudo {
+  width: min(100%, var(--content-max-width));
+  margin-inline: auto;
+}
