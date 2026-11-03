@@ -4,8 +4,8 @@ import styles from './Projetos.module.css'
 import skillmatchImagem from '../../assets/imagens/skillmatch.png'
 import skillmatchVideo from '../../assets/videos/skillmatch.mp4'
 
-import acroLogImagem from '../../assets/imagens/acroLog.png'
-import acroLogVideo from '../../assets/videos/acroLog.mp4'
+import acroLogImagem from '../../assets/imagens/acrolog.png'
+import acroLogVideo from '../../assets/videos/acrolog.mp4'
 
 import closetExpressImagem from '../../assets/imagens/closetExpress.png'
 import closetExpressVideo from '../../assets/videos/closetExpress.mp4'
