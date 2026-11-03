@@ -13,7 +13,7 @@ function Contato() {
           <li className={styles.item}>
             <a
               className={styles.link}
-              href="https://github.com/acvolpatto"
+               href="https://github.com/aline-volpatto"
               target="_blank"
               rel="noreferrer noopener"
               aria-label="GitHub"
@@ -33,7 +33,7 @@ function Contato() {
           <li className={styles.item}>
             <a
               className={styles.link}
-              href="https://www.linkedin.com/in/acvolpatto"
+               href="https://www.linkedin.com/in/aline-volpatto-95b991294"
               target="_blank"
               rel="noreferrer noopener"
               aria-label="LinkedIn"
@@ -68,6 +68,14 @@ function Contato() {
             </a>
           </li>
         </ul>
+        <a
+          className={styles.curriculo}
+          href="/curriculo-aline-volpatto.pdf"
+          download="Aline-Volpatto-Curriculo.pdf"
+          type="application/pdf"
+        >
+          Baixar currículo
+        </a>
       </div>
     </section>
   )

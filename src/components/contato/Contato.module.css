@@ -5,8 +5,7 @@
 }
 
 .container {
-  max-width: 900px;
-  margin: 0 auto;
+  composes: container-conteudo from global;
   text-align: center;
 }
 
@@ -43,7 +42,23 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.75rem;
+}
+
+.curriculo {
+  display: inline-block;
+  margin-top: 1.25rem;
+  color: var(--bg);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  padding: 0.7rem 1.25rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.curriculo:hover {
+  color: var(--bg);
+  background-color: var(--accent);
 }
 
 .item {
@@ -58,7 +73,7 @@
   gap: 0.75rem;
   padding: 1rem 1.25rem;
   background-color: var(--nav-bg);
-  color: var(--bg);
+  color: var(--nav-text);
   text-decoration: none;
   border-radius: 8px;
   border: 1px solid var(--accent);
@@ -69,22 +84,24 @@
 
 .link:hover {
   transform: translateY(-2px);
-  opacity: 0.9;
+  color: var(--nav-text);
+  border-color: var(--nav-text);
+  box-shadow: 0 0 0 1px var(--nav-text);
 }
 
 .icone {
   width: 22px;
   height: 22px;
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--nav-text);
 }
 
 .link:hover .icone {
-  color: var(--bg);
+  color: var(--nav-text);
 }
 
 .texto {
-  color: var(--bg);
+  color: var(--nav-text);
 }
 
 @media (max-width: 480px) {
@@ -95,9 +112,14 @@
   .lista {
     flex-direction: column;
     align-items: stretch;
+    gap: 0.5rem;
   }
 
   .item {
     max-width: none;
+  }
+
+  .curriculo {
+    margin-top: 1rem;
   }
 }

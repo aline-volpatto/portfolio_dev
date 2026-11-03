@@ -4,8 +4,10 @@
   --text-secondary: #5C5449;
   --accent: #8A5A34;
   --nav-bg: #6B4226;
+  --nav-text: #F1E9DC;
   --surface: #FFFFFF;
   --border: #DCD0BC;
+  --content-max-width: 1200px;
 }
 
 [data-theme="dark"] {
@@ -14,6 +16,7 @@
   --text-secondary: #A79A88;
   --accent: #C98A50;
   --nav-bg: #3D2E22;
+  --nav-text: #EFE6D8;
   --surface: #241F1A;
   --border: #322C25;
 }
