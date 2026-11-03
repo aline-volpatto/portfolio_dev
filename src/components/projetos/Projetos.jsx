@@ -7,14 +7,14 @@ import skillmatchVideo from '../../assets/videos/skillmatch.mp4'
 import acroLogImagem from '../../assets/imagens/acrolog.png'
 import acroLogVideo from '../../assets/videos/acrolog.mp4'
 
-import closetExpressImagem from '../../assets/imagens/closetExpress.png'
-import closetExpressVideo from '../../assets/videos/closetExpress.mp4'
+import closetExpressImagem from '../../assets/imagens/closetexpress.png'
+import closetExpressVideo from '../../assets/videos/closetexpress.mp4'
 
-import listaTarefasImagem from '../../assets/imagens/listaTarefas.png'
-import listaTarefasVideo from '../../assets/videos/listaTarefas.mp4'
+import listaTarefasImagem from '../../assets/imagens/listatarefas.png'
+import listaTarefasVideo from '../../assets/videos/listatarefas.mp4'
 
-import nikaCafesImagem from '../../assets/imagens/nikaCafes.png'
-import nikaCafesVideo from '../../assets/videos/nikaCafe.mp4'
+import nikaCafesImagem from '../../assets/imagens/nikacafes.png'
+import nikaCafesVideo from '../../assets/videos/nikacafe.mp4'
 
 const projetos = [
     {
