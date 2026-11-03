@@ -6,17 +6,26 @@ function SobreMim() {
       <div className={styles.container}>
         <h2 className={styles.titulo}>Sobre mim</h2>
         <p className={styles.texto}>
-          Me chamo Aline Volpatto e sou desenvolvedora Front-End em formação,
-          com base em React e JavaScript. Gosto de transformar ideias em
-          interfaces claras, funcionais e acessíveis, sempre buscando escrever
-          um código limpo e bem organizado.
+          Sou Aline Volpatto, desenvolvedora Front-End com base em React e
+          JavaScript. Concluí a formação Desenvolvedor Web Front-End do SENAI/SC
+          e estou na reta final do curso de Análise e Desenvolvimento de
+          Sistemas, com conclusão prevista para 2027.
         </p>
         <p className={styles.texto}>
-          Atualmente estudo e desenvolvo projetos pessoais para consolidar a
-          base técnica em React, componentização, consumo de APIs e boas
-          práticas de UI/UX. Estou em busca da minha primeira oportunidade
-          profissional na área para continuar aprendendo e contribuir com
-          times que valorizam qualidade e cuidado com o usuário.
+          Antes da tecnologia, passei mais de 11 anos no setor aeronáutico,
+          trabalhando com controle técnico de manutenção, auditoria de
+          documentos e compliance. Foi nesse ambiente, onde atenção aos
+          detalhes não é opcional, que aprendi a valorizar processos bem
+          definidos, documentação clara e qualidade em cada entrega. Hoje levo
+          isso para o código: gosto de criar interfaces claras, acessíveis e
+          bem organizadas, pensando sempre em quem vai usar.
+        </p>
+        <p className={styles.texto}>
+          No meu dia a dia de desenvolvimento, utilizo ferramentas de
+          Inteligência Artificial, integrações via MCP (Model Context Protocol)
+          e GitHub para versionamento e colaboração. Também estou ampliando
+          minha base com estudos em back-end e IA, e sigo desenvolvendo projetos
+          com React, consumo de APIs e boas práticas de UI/UX.
         </p>
       </div>
     </section>
