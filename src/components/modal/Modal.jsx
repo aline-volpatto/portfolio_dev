@@ -1,11 +1,14 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 import styles from './Modal.module.css'
 
-function Modal({ aberto, aoFechar, tipo, titulo, videoUrl, texto }) {
+function Modal({ aberto, aoFechar, tipo, titulo, videoUrl, texto, botaoQueAbriu }) {
+    const botaoFechar = useRef(null)
 
     useEffect(() => {
         if (!aberto) return
+
+        botaoFechar.current?.focus()
 
         const aoPressionarTecla = (evento) => {
             if (evento.key === 'Escape') {
@@ -21,6 +24,12 @@ function Modal({ aberto, aoFechar, tipo, titulo, videoUrl, texto }) {
             document.body.style.overflow = ''
         }
     }, [aberto, aoFechar])
+
+    useEffect(() => {
+        if (!aberto) {
+            botaoQueAbriu.current?.focus()
+        }
+    }, [aberto, botaoQueAbriu])
 
     if (!aberto) return null
 
@@ -39,6 +48,7 @@ function Modal({ aberto, aoFechar, tipo, titulo, videoUrl, texto }) {
                     <button
                         type="button"
                         className={styles.botaoFechar}
+                        ref={botaoFechar}
                         onClick={aoFechar}
                         aria-label="Fechar"
                     >
