@@ -3,6 +3,8 @@
 Portfolio pessoal desenvolvido em React para apresentação profissional,
 habilidades técnicas, projetos desenvolvidos e informações de contato.
 
+Site: https://portfolio-aline-volpatto.netlify.app/
+
 ## 1. Sobre o projeto
 
 Este projeto consiste no desenvolvimento de um portfolio pessoal utilizando
@@ -79,6 +81,13 @@ O componente de modal possui:
 - Reprodução de vídeos;
 - Exibição das informações dos projetos.
 
+## Como rodar localmente
+
+```bash
+npm install
+npm run dev
+```
+
 ## 4. Tecnologias utilizadas
 
 ### React
@@ -129,8 +138,16 @@ Principais componentes:
 ```text
 Navegacao
 SobreMim
+Habilidades
 Projetos
 Card
 Modal
 Contato
 Rodape
+Header
+```
+
+## Deploy
+
+O projeto utiliza deploy contínuo no Netlify, configurado para publicar a pasta
+`dist` após cada atualização do repositório.

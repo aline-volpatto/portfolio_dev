@@ -7,7 +7,7 @@ function Rodape() {
     <footer className={styles.rodape}>
       <div className={styles.container}>
         <p className={styles.texto}>
-          &copy; {ano} Aline Volpatto. Todos os direitos reservados.
+          &copy; {ano} Aline Volpatto · Desenvolvido com React
         </p>
       </div>
     </footer>

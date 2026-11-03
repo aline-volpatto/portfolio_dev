@@ -1,0 +1,79 @@
+.habilidades {
+  background-color: var(--surface);
+  padding: 4rem 1.5rem;
+}
+
+.container {
+  composes: container-conteudo from global;
+}
+
+.titulo {
+  color: var(--text);
+  display: inline-block;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.titulo::after {
+  background-color: var(--accent);
+  border-radius: 2px;
+  content: '';
+  display: block;
+  height: 3px;
+  margin-top: 0.5rem;
+  width: 60px;
+}
+
+.grupo + .grupo {
+  margin-top: 2rem;
+}
+
+.subtitulo {
+  color: var(--text);
+  font-size: 1.1rem;
+  margin-bottom: 0.85rem;
+}
+
+.grade {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.item {
+  align-items: center;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  display: flex;
+  font-weight: 600;
+  gap: 0.75rem;
+  min-height: 70px;
+  padding: 1rem;
+}
+
+.aprendizado .item {
+  background-color: transparent;
+  border-style: dashed;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.aprendizado .icone {
+  color: var(--text-secondary);
+}
+
+.icone {
+  color: var(--accent);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .habilidades {
+    padding: 3rem 1rem;
+  }
+}
