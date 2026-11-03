@@ -43,7 +43,52 @@
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--text);
-  margin: 1rem 1.25rem 0.75rem;
+  margin: 1rem 1.25rem 0.5rem;
+}
+
+.tecnologias,
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-inline: 1.25rem;
+}
+
+.tecnologias {
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.55rem;
+}
+
+.links {
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.link {
+  align-items: center;
+  color: var(--accent);
+  display: inline-flex;
+  font-size: 0.85rem;
+  font-weight: 700;
+  gap: 0.35rem;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link svg {
+  height: 1rem;
+  width: 1rem;
 }
 
 .botoes {

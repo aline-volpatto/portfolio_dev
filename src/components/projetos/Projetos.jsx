@@ -22,6 +22,9 @@ const projetos = [
         titulo: 'SkillMatch',
         imagem: skillmatchImagem,
         videoUrl: skillmatchVideo,
+        deployUrl: 'https://aline-volpatto.github.io/skillmatch-web/',
+        repoUrl: 'https://github.com/aline-volpatto/skillmatch-web',
+        tecnologias: ['React', 'JavaScript', 'CSS'],
         descricao:
             'Plataforma que conecta profissionais a oportunidades compatíveis com seu perfil técnico, usando correspondência de habilidades.',
     },
@@ -30,6 +33,9 @@ const projetos = [
         titulo: 'Acrolog',
         imagem: acroLogImagem,
         videoUrl: acroLogVideo,
+        deployUrl: '',
+        repoUrl: 'https://github.com/aline-volpatto/tuaregllog',
+        tecnologias: ['JavaScript', 'localStorage', 'CSS'],
         descricao:
             'Sistema de gestão de uma escola de acrobacia aérea. Inclui cadastro de alunos, gerenciamento de horas de voos, avaliação de voos, briefing e debriefing. Por ser uma aplicação totalmente front-end, os dados persistem com uso de localStorage e são extraídos manualmente para uma pasta local. Sistema em aperfeiçoamento.',
     },
@@ -38,14 +44,20 @@ const projetos = [
         titulo: 'Closet Express',
         imagem: closetExpressImagem,
         videoUrl: closetExpressVideo,
+        deployUrl: '',
+        repoUrl: '',
+        tecnologias: ['HTML', 'JavaScript', 'CSS'],
         descricao:
-            'Simulação de um checkout de uma loja virtual, com etapas objetivas, validação de dados e finalização ráida do pedido',
+            'Simulação de um checkout de uma loja virtual, com etapas objetivas, validação de dados e finalização rápida do pedido.',
     },
     {
         id: 'lista-de-tarefas',
         titulo: 'Lista de tarefas',
         imagem: listaTarefasImagem,
         videoUrl: listaTarefasVideo,
+        deployUrl: 'https://aline-volpatto.github.io/listaTarefas/',
+        repoUrl: 'https://github.com/aline-volpatto/listaTarefas',
+        tecnologias: ['HTML', 'JavaScript', 'CSS'],
         descricao:
             'Aplicação de lista de tarefas com criação, edição, conclusão e remoção de itens, persistindo os dados localmente.',
     },
@@ -54,6 +66,9 @@ const projetos = [
         titulo: 'Nika Cafés',
         imagem: nikaCafesImagem,
         videoUrl: nikaCafesVideo,
+        deployUrl: 'https://aline-volpatto.github.io/nika-cafe-site/',
+        repoUrl: 'https://github.com/aline-volpatto/nika-cafe-site',
+        tecnologias: ['HTML', 'CSS', 'JavaScript'],
         descricao:
             'Landing page para a cafeteria Nika Cafés, com apresentação dos produtos, da marca e canais de contato.',
     },
@@ -77,6 +92,9 @@ function Projetos() {
               imagem={projeto.imagem}
               videoUrl={projeto.videoUrl}
               descricao={projeto.descricao}
+              deployUrl={projeto.deployUrl}
+              repoUrl={projeto.repoUrl}
+              tecnologias={projeto.tecnologias}
             />
           ))}
         </div>
