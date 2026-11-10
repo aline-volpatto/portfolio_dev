@@ -16,6 +16,7 @@ import listaTarefasVideo from '../../assets/videos/listatarefas.mp4'
 import nikaCafesImagem from '../../assets/imagens/nikacafes.png'
 import nikaCafesVideo from '../../assets/videos/nikacafe.mp4'
 
+import turegStoreImagem from '../../assets/imagens/tuaregstore.png'
 import turegStoreVideo from '../../assets/videos/tuaregstore.mp4'
 
 const projetos = [
@@ -77,9 +78,10 @@ const projetos = [
     {
         id: 'tureg-store',
         titulo: 'Tureg Store',
+        imagem: turegStoreImagem,
         videoUrl: turegStoreVideo,
-        deployUrl: '',
-        repoUrl: '',
+        deployUrl: 'https://tuareg-store.netlify.app/',
+        repoUrl: 'https://github.com/aline-volpatto/tuareg_store',
         tecnologias: ['React', 'JavaScript', 'CSS'],
         descricao:
             'Simulação de uma loja virtual desenvolvida com React durante o curso do SCTEC.',
