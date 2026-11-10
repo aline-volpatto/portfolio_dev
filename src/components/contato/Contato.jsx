@@ -5,9 +5,6 @@ function Contato() {
     <section id="contato" className={styles.contato}>
       <div className={styles.container}>
         <h2 className={styles.titulo}>Contato</h2>
-        <p className={styles.subtitulo}>
-          Vamos conversar? Entre em contato por um dos canais abaixo.
-        </p>
 
         <ul className={styles.lista}>
           <li className={styles.item}>
