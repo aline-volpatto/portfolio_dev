@@ -16,6 +16,8 @@ import listaTarefasVideo from '../../assets/videos/listatarefas.mp4'
 import nikaCafesImagem from '../../assets/imagens/nikacafes.png'
 import nikaCafesVideo from '../../assets/videos/nikacafe.mp4'
 
+import turegStoreVideo from '../../assets/videos/tuaregstore.mp4'
+
 const projetos = [
     {
         id: 'skillmatch',
@@ -71,6 +73,16 @@ const projetos = [
         tecnologias: ['HTML', 'CSS', 'JavaScript'],
         descricao:
             'Landing page para a cafeteria Nika Cafés, com apresentação dos produtos, da marca e canais de contato.',
+    },
+    {
+        id: 'tureg-store',
+        titulo: 'Tureg Store',
+        videoUrl: turegStoreVideo,
+        deployUrl: '',
+        repoUrl: '',
+        tecnologias: ['React', 'JavaScript', 'CSS'],
+        descricao:
+            'Simulação de uma loja virtual desenvolvida com React durante o curso do SCTEC.',
     },
 ]
 
