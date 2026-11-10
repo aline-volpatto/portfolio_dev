@@ -48,7 +48,7 @@ const projetos = [
         imagem: closetExpressImagem,
         videoUrl: closetExpressVideo,
         deployUrl: '',
-        repoUrl: '',
+        repoUrl: 'https://github.com/aline-volpatto/checkout-react',
         tecnologias: ['HTML', 'JavaScript', 'CSS'],
         descricao:
             'Simulação de um checkout de uma loja virtual, com etapas objetivas, validação de dados e finalização rápida do pedido.',
@@ -77,7 +77,7 @@ const projetos = [
     },
     {
         id: 'tureg-store',
-        titulo: 'Tureg Store',
+        titulo: 'Tuareg Store',
         imagem: turegStoreImagem,
         videoUrl: turegStoreVideo,
         deployUrl: 'https://tuareg-store.netlify.app/',
