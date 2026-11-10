@@ -86,7 +86,7 @@ function Navegacao() {
             title={temaEscuro ? 'Ativar tema claro' : 'Ativar tema escuro'}
           >
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              {temaEscuro ? <path d="M21 15.2A8.5 8.5 0 0 1 8.8 3a8.5 8.5 0 1 0 12.2 12.2Z" fill="currentColor" /> : <path d="M12 3V1m0 22v-2m9-9h2M1 12h2m15.36-6.36 1.42-1.42M4.22 19.78l1.42-1.42m0-12.72L4.22 4.22m15.56 15.56-1.42-1.42M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />}
+              {temaEscuro ? <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" fill="currentColor" /> : <path d="M12 3V1m0 22v-2m9-9h2M1 12h2m15.36-6.36 1.42-1.42M4.22 19.78l1.42-1.42m0-12.72L4.22 4.22m15.56 15.56-1.42-1.42M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />}
             </svg>
           </button>
         </div>
