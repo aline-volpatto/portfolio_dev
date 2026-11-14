@@ -3,15 +3,19 @@ import styles from './Habilidades.module.css'
 const grupos = [
   {
     titulo: 'Front-End',
-    habilidades: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'CSS Modules', 'Bootstrap'],
+    habilidades: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'CSS Modules', 'Bootstrap', 'PWA'],
+  },
+  {
+    titulo: 'Back-End',
+    habilidades: ['Node.js', 'Express', 'API REST', 'PostgreSQL', 'SQL'],
   },
   {
     titulo: 'Ferramentas',
-    habilidades: ['Git', 'GitHub', 'Ferramentas de IA', 'MCP', 'Netlify'],
+    habilidades: ['Git', 'GitHub', 'Ferramentas de IA', 'MCP', 'Netlify', 'Render', 'ESLint', 'Prettier'],
   },
   {
     titulo: 'Em aprendizado',
-    habilidades: ['Node.js', 'SQL', 'Python'],
+    habilidades: ['Python', 'Testes automatizados'],
   },
 ]
 

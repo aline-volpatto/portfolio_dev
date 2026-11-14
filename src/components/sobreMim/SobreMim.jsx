@@ -6,8 +6,9 @@ function SobreMim() {
       <div className={styles.container}>
         <h2 className={styles.titulo}>Sobre mim</h2>
         <p className={styles.texto}>
-          Sou Aline Volpatto, desenvolvedora Front-End com base em React e
-          JavaScript. Concluí a formação Desenvolvedor Web Front-End do SENAI/SC
+          Sou Aline Volpatto, Desenvolvedora Front-End (React e JavaScript), com
+          experiência em back-end com Node.js e PostgreSQL. Concluí a formação
+          Desenvolvedor Web Front-End do SENAI/SC
           e estou na reta final do curso de Análise e Desenvolvimento de
           Sistemas, com conclusão prevista para 2027.
         </p>
