@@ -33,14 +33,14 @@ const projetos = [
     },
     {
         id: 'acrolog',
-        titulo: 'Acrolog',
+        titulo: 'TuaregAcroLog',
         imagem: acroLogImagem,
         videoUrl: acroLogVideo,
         deployUrl: '',
-        repoUrl: 'https://github.com/aline-volpatto/tuaregllog',
-        tecnologias: ['JavaScript', 'localStorage', 'CSS'],
+        repoUrl: 'https://github.com/aline-volpatto/tuareg-acrolog-web',
+        tecnologias: ['React', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'Better Auth', 'PWA'],
         descricao:
-            'Sistema de gestão de uma escola de acrobacia aérea. Inclui cadastro de alunos, gerenciamento de horas de voos, avaliação de voos, briefing e debriefing. Por ser uma aplicação totalmente front-end, os dados persistem com uso de localStorage e são extraídos manualmente para uma pasta local. Sistema em aperfeiçoamento.',
+            'Diário de bordo para instrutor de voo acrobático, em uso real. Começou como um PWA com os dados guardados no celular e evoluiu para um app completo, com API, banco de dados e login seguro. Funciona instalado no iPhone, registra voos, figuras e rolls, controla as horas de cada aluno e gera o PDF do voo para enviar pelo WhatsApp. A evolução inclui a migração de PWA com localStorage para React + API Node/Express + PostgreSQL, validação dos dados, transações, cabeçalhos de segurança e um script de migração dos dados da versão antiga.',
     },
     {
         id: 'checkout-express',
