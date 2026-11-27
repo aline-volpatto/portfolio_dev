@@ -2,7 +2,7 @@ import { useCallback, useRef, useState } from 'react'
 import Modal from '../../modal/Modal'
 import styles from './Card.module.css'
 
-function Card({ titulo, imagem, videoUrl, descricao, deployUrl, repoUrl, tecnologias }) {
+function Card({ titulo, imagem, videoUrl, descricao, deployUrl, repoUrl, status, tecnologias }) {
     const [modalAberto, setModalAberto] = useState(null)
     const botaoQueAbriu = useRef(null)
 
@@ -36,6 +36,7 @@ function Card({ titulo, imagem, videoUrl, descricao, deployUrl, repoUrl, tecnolo
             </h3>
 
             <div className={styles.tecnologias} aria-label={`Tecnologias usadas em ${titulo}`}>
+                {status && <span className={styles.tag}>{status}</span>}
                 {tecnologias.map((tecnologia) => (
                     <span className={styles.tag} key={tecnologia}>{tecnologia}</span>
                 ))}

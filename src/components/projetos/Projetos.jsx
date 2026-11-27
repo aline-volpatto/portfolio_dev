@@ -21,6 +21,18 @@ import turegStoreVideo from '../../assets/videos/tuaregstore.mp4'
 
 const projetos = [
     {
+        id: 'acrolog',
+        titulo: 'AcroLog',
+        imagem: acroLogImagem,
+        videoUrl: acroLogVideo,
+        deployUrl: '',
+        repoUrl: '',
+        status: 'Em produção',
+        tecnologias: ['React', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'Neon', 'Better Auth', 'PWA'],
+        descricao:
+            'Aplicação full stack usada por instrutor de acrobacia aérea: horas de voo, manobras, avaliações e briefing. API REST no Render, PostgreSQL (Neon), login com Better Auth e migração de dados sem perdas.',
+    },
+    {
         id: 'skillmatch',
         titulo: 'SkillMatch',
         imagem: skillmatchImagem,
@@ -32,24 +44,13 @@ const projetos = [
             'Plataforma que conecta profissionais a oportunidades compatíveis com seu perfil técnico, usando correspondência de habilidades.',
     },
     {
-        id: 'acrolog',
-        titulo: 'TuaregAcroLog',
-        imagem: acroLogImagem,
-        videoUrl: acroLogVideo,
-        deployUrl: '',
-        repoUrl: 'https://github.com/aline-volpatto/tuareg-acrolog-web',
-        tecnologias: ['React', 'Vite', 'Node.js', 'Express', 'PostgreSQL', 'Better Auth', 'PWA'],
-        descricao:
-            'Diário de bordo para instrutor de voo acrobático, em uso real. Começou como um PWA com os dados guardados no celular e evoluiu para um app completo, com API, banco de dados e login seguro. Funciona instalado no iPhone, registra voos, figuras e rolls, controla as horas de cada aluno e gera o PDF do voo para enviar pelo WhatsApp. A evolução inclui a migração de PWA com localStorage para React + API Node/Express + PostgreSQL, validação dos dados, transações, cabeçalhos de segurança e um script de migração dos dados da versão antiga.',
-    },
-    {
         id: 'checkout-express',
         titulo: 'Closet Express',
         imagem: closetExpressImagem,
         videoUrl: closetExpressVideo,
         deployUrl: '',
-        repoUrl: 'https://github.com/aline-volpatto/checkout-react',
-        tecnologias: ['HTML', 'JavaScript', 'CSS'],
+        repoUrl: '',
+        tecnologias: ['React', 'JavaScript', 'React Hook Form', 'Zod'],
         descricao:
             'Simulação de um checkout de uma loja virtual, com etapas objetivas, validação de dados e finalização rápida do pedido.',
     },
@@ -94,8 +95,8 @@ function Projetos() {
       <div className={styles.container}>
         <h2 className={styles.titulo}>Projetos</h2>
         <p className={styles.subtitulo}>
-          Alguns dos projetos que desenvolvi para praticar e consolidar
-          minhas habilidades em Front-End.
+          Alguns dos projetos que desenvolvi, do front-end ao back-end,
+          incluindo uma aplicação em produção com usuário real.
         </p>
 
         <div className={styles.grid}>
@@ -108,6 +109,7 @@ function Projetos() {
               descricao={projeto.descricao}
               deployUrl={projeto.deployUrl}
               repoUrl={projeto.repoUrl}
+              status={projeto.status}
               tecnologias={projeto.tecnologias}
             />
           ))}
